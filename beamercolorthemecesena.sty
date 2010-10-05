@@ -1,0 +1,54 @@
+% Copyright 2004 by Madhusudan Singh <madhusudan.singh@gmail.com>
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\ProvidesPackageRCS $Header: /home/vedranm/bitbucket/beamer/base/themes/color/beamercolorthemebeaver.sty,v d02a7cf4d8ae 2010/06/17 09:11:41 rivanvx $
+
+
+\mode<presentation>
+
+%from beaver
+\definecolor{bluegray}{rgb}{0.50,0.50,0.60}
+\definecolor{bluegreen}{rgb}{0.10,0.30,0.60}
+\definecolor{darkbluegreen}{rgb}{0.05,0.15,0.30}
+
+\setbeamercolor{section in toc}{fg=black,bg=white}
+\setbeamercolor{normal text}{fg=darkbluegreen!80!gray}
+\setbeamercolor{alerted text}{fg=bluegreen!80!gray}
+\setbeamercolor{example text}{fg=darkbluegreen!80!gray}
+\setbeamercolor*{palette primary}{fg=bluegreen!60!black,bg=bluegray!30!white}
+\setbeamercolor*{palette secondary}{fg=bluegreen!70!black,bg=bluegray!15!white}
+\setbeamercolor*{palette tertiary}{bg=bluegreen!80!black,fg=bluegray!10!white}
+\setbeamercolor*{palette quaternary}{fg=bluegreen,bg=bluegray!5!white}
+
+\setbeamercolor*{sidebar}{fg=bluegreen,bg=bluegray!15!white}
+
+\setbeamercolor*{palette sidebar primary}{fg=bluegreen!10!black}
+\setbeamercolor*{palette sidebar secondary}{fg=white}
+\setbeamercolor*{palette sidebar tertiary}{fg=bluegreen!50!black}
+\setbeamercolor*{palette sidebar quaternary}{fg=gray!10!white}
+
+%\setbeamercolor*{titlelike}{parent=palette primary}
+\setbeamercolor{titlelike}{parent=palette primary,fg=bluegreen}
+\setbeamercolor{frametitle}{bg=bluegray!10!white}
+\setbeamercolor{frametitle right}{bg=bluegray!60!white}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+%from orchid
+\setbeamercolor{block title}{use=structure,fg=white,bg=bluegreen!75!black}
+\setbeamercolor{block title alerted}{use=alerted text,fg=white,bg=bluegreen!75!black}
+\setbeamercolor{block title example}{use=example text,fg=white,bg=bluegreen!75!black}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!10!bg}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!10!bg}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!10!bg}
+
+\mode
+<all>
