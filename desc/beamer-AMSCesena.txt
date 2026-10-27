@@ -1,1 +1,1 @@
-AMSCesena Beamer style: AMSUniBo in the colours of CesenaSMA2006, the first style of the series
+Beamer style in blue for presentations by AMS people
