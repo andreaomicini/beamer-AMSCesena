@@ -93,7 +93,7 @@ stay Beamer's red, as they were in 2006, and examples Beamer's green.
 <!-- markdownlint-disable MD013 -->
 | colour | value | source | where it goes on a slide |
 | --- | --- | --- | --- |
-| `owblue` | `#3333B2` | beamer@blendedblue, the 2006 structure | title box, author, bullets, links, DOIs, date in the foot line |
+| `owblue` | `#3333B2` | beamer@blendedblue, the 2006 structure | title box (white title and subtitle in it), author, bullets, links, DOIs, date in the foot line |
 | `owbluedeep` | `#262686` | structure!75!black, whale secondary, orchid block title | block headers, emphasis, section in TOC, sub-section and title in head/foot, the APICe marker |
 | `owbluedark` | `#1A1A59` | structure!50!black, whale tertiary | palette tertiary |
 | `owbluelight` | `#C2C2E8` | structure!30!white, guessed: the light blue | separation lines |
@@ -109,7 +109,7 @@ stay Beamer's red, as they were in 2006, and examples Beamer's green.
 | `owblack` | `#000000` | black, whale quaternary | section in head/foot, author in head/foot |
 | `owtext` | `#000000` | black, Beamer's normal text | body text |
 | `owgrey` | `#404040` | darkgray, guessed: institute | institute |
-| `owgreymid` | `#5A5A5A` | gray!70!black, guessed: secondary text | secondary text, footnotes, subtitle, date |
+| `owgreymid` | `#5A5A5A` | gray!70!black, guessed: secondary text | secondary text, footnotes, date |
 | `owgreyline` | `#BFBFBF` | lightgray, guessed: \ccite, \uuurl | `\ccite`, `\uuurl`, `\dddoi`, `\aalert`, fine rules |
 | `owgreybg` | `#ECECEC` | gray!15!white, guessed: \cccite | `\cccite`, the lightest of the pair |
 
