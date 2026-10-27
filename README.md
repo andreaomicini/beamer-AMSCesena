@@ -1,5 +1,7 @@
 # beamer-AMSCesena
 
+![AMSCesena Beamer style logo](logo/amscesena-style-full.svg)
+
 > A simple Beamer-LaTeX style for presentations by Alma Mater Studiorum —
 > Università di Bologna, in the blues of CesenaSMA2006, the first style of the
 > series, recovered
