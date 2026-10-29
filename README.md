@@ -6,7 +6,8 @@ style of the series, the ancestor whose blues `main` recovered. It is not
 `main` and never merges into it.
 
 It exists so that the 2006/2007 course decks can be rebuilt as they were,
-pinned through their `.style` submodule at the tag `cesena-2006`. Source:
+pinned through their `.style` submodule at the tag `cesena-2006`, and the
+2007/2008 ones at `cesena-2007`. Source:
 `~/Documents/corsi/2005-2010/2006:2007/SMA-LS/slides/`, recovered on
 2026-10-27; the commit carries the theme's own date, 2006-10-08.
 
@@ -23,7 +24,12 @@ Two files, both byte for byte:
   theme`. The same file is in sixteen archive folders, all identical: it also
   served `Leuven2006` and `ICTTN2007`.
 
-Neither loads an image: the UniBo logo in the corner of the 2006 slides is the
+`beamerthemeCesenaSMA2007.sty` (2007-10-03), byte for byte the copy beside the
+2007/2008 decks (`…/2007:2008/SMA-LS/slides/`): CesenaSMA2006 with Beamer's
+own `infolines` outer theme in place of `smoothbarsinfolines`, nothing else
+changed, the RCS header included. Every 2007 copy in the archive is identical.
+
+None loads an image: the UniBo logo in the corner of the 2006 slides is the
 decks' own `\logo`, from their `img/`. The bibliography style of the time was
 LaTeX's own `apalike`, not `apalike-AMS`.
 
