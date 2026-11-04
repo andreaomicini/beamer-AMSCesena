@@ -7,7 +7,8 @@ style of the series, the ancestor whose blues `main` recovered. It is not
 
 It exists so that the 2006/2007 course decks can be rebuilt as they were,
 pinned through their `.style` submodule at the tag `cesena-2006`, the
-2007/2008 ones at `cesena-2007` and the 2008/2009 ones at `cesena-2008`. Source:
+2007/2008 ones at `cesena-2007`, the 2008/2009 ones at `cesena-2008` and the
+2009/2010 ones at `cesena-2009`. Source:
 `~/Documents/corsi/2005-2010/2006:2007/SMA-LS/slides/`, recovered on
 2026-10-27; the commit carries the theme's own date, 2006-10-08.
 
@@ -33,6 +34,11 @@ changed, the RCS header included. Every 2007 copy in the archive is identical.
 2008/2009 decks (`…/2008:2009/SMA-LS/slides/`): CesenaSMA2007 with its name in
 the RCS header, nothing else changed. The three copies in the archive are
 identical.
+
+`beamerthemeCesenaSMA2009.sty` (its file date 2008-09-30), byte for byte the
+copy beside the 2009/2010 decks (`…/2009:2010/SMA LS/slides/`): the same bytes
+as CesenaSMA2008, its RCS header still naming CesenaSMA2008; only the file name
+changed, which the 2009 decks load.
 
 None loads an image: the UniBo logo in the corner of the 2006 slides is the
 decks' own `\logo`, from their `img/`. The bibliography style of the time was
