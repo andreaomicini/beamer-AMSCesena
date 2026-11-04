@@ -7,8 +7,9 @@ style of the series, the ancestor whose blues `main` recovered. It is not
 
 It exists so that the 2006/2007 course decks can be rebuilt as they were,
 pinned through their `.style` submodule at the tag `cesena-2006`, the
-2007/2008 ones at `cesena-2007`, the 2008/2009 ones at `cesena-2008` and the
-2009/2010 ones at `cesena-2009`. Source:
+2007/2008 ones at `cesena-2007`, the 2008/2009 ones at `cesena-2008`, the
+2009/2010 ones at `cesena-2009` and the SMA-LM 2010/2011 ones at
+`cesena-2010`. Source:
 `~/Documents/corsi/2005-2010/2006:2007/SMA-LS/slides/`, recovered on
 2026-10-27; the commit carries the theme's own date, 2006-10-08.
 
@@ -39,6 +40,19 @@ identical.
 copy beside the 2009/2010 decks (`…/2009:2010/SMA LS/slides/`): the same bytes
 as CesenaSMA2008, its RCS header still naming CesenaSMA2008; only the file name
 changed, which the 2009 decks load.
+
+`beamerthemeCesenaSMA2010.sty` (its file date 2008-09-30): the same bytes as
+CesenaSMA2009, under the name the SMA-LM 2010/2011 lab decks load (Elena
+Nardini's). The one copy in the archive sits beside the EASSS 2010 slides
+(`~/Documents/scuole/easss 2010/slides/`).
+
+`beamerthemeCesena2010.sty` (2010-10-05, RCS 2010/10/01) and
+`beamercolorthemecesena.sty`, byte for byte the copies beside the SMA-LM
+2010/2011 course decks (`…/2010:2011/SMA-LM 2010:2011/slides/`): Beamer's
+`infolines` outer theme and `rounded` inner theme with shadows, as before, over
+a new colour theme `cesena`, Beamer's `beaver` (its RCS header kept) turned
+blue-grey, with `orchid`'s block colours. Every archive copy of the two is
+identical (25 and 84 copies).
 
 None loads an image: the UniBo logo in the corner of the 2006 slides is the
 decks' own `\logo`, from their `img/`. The bibliography style of the time was
