@@ -36,11 +36,12 @@ with a different palette, exactly as
 [beamer-AMSBolognaFC](https://github.com/andreaomicini/beamer-AMSBolognaFC) is:
 the theme is AMSUniBo's, generated from it with every colour name replaced and
 a handful of assignments changed where a role needed a different shade. The
-options, the commands (`\speaker`, `\ccite`, `\uurl`, `\ddoi`, `\apicepubpar`,
+options, the commands (`\speaker`, `\ccite`, `\uurl`, `\wwwurl`, `\ddoi`, `\apicepubpar`,
 `\apicetalkpar`, `\apicethesispar`, `\aalert`, the APICe addresses `\apice`,
 `\apicesite`, `\apicepage`, and their pairs), the workarounds, the references
-frame and `apalike-AMS.bst` — AMSUniBo 1.8.3's, with talks, theses, journal
-issues, article numbers and subtitles — are all AMSUniBo's: see
+frame and `apalike-AMS.bst` — since 1.1.4 the one file of all six styles, AMSUniBo
+1.8.5's, with talks, theses, journal issues, article numbers, subtitles and web
+pages — are all AMSUniBo's: see
 [its README](https://github.com/andreaomicini/beamer-AMSUniBo#readme) for all of
 them. The faces are not: like AMSBolognaFC, this style keeps LaTeX's own
 Computer Modern, as the old one did, rather than AMSUniBo's Merriweather.
