@@ -1,5 +1,10 @@
 # beamer-AMSCesena
 
+> **Frozen since 2026-11-08.** This style is now the `AMSCesena` preset of
+> [almamater](https://github.com/andreaomicini/beamer-almamater), the six AMS styles as one: a deck keeps `\usetheme{AMSCesena}` and pins
+> `beamer-almamater` instead. Nothing here changes any more; the repository stays readable for the decks'
+> history that pins it. Its themes of the time are on almamater's [`history/cesena`](https://github.com/andreaomicini/beamer-almamater/tree/history/cesena) branch, the tags on the same commits.
+
 ![AMSCesena Beamer style logo](logo/amscesena-style-full.svg)
 
 > A simple Beamer-LaTeX style for presentations by Alma Mater Studiorum —
